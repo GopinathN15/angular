@@ -1,0 +1,50 @@
+@import "@angular/material/prebuilt-themes/indigo-pink.css";
+/* You can add global styles to this file, and also import other style files */
+
+
+body {
+    margin: 0.2em 0.2em;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #666;
+    background-color: #dedede;
+  }
+  .top-menu {
+    background-color: #030e09;
+    background-image: linear-gradient(315deg, #b9bae7 0%, #2d2c30 74%);
+    color: white;
+    width: 100%;
+    height: 9%;
+  }
+  .vertical-menu {
+    background-color: #111111;
+    background-image: linear-gradient(315deg, #312f2ffd 0%, #2c2d2e 74%);
+    color: white;
+    /* background-color: #63a4ff;
+          background-image: linear-gradient(315deg,  #83eaf1 0%, #63a4ff 74%); */
+  }
+  
+  .fill-remaining-space {
+    flex: 1 1 auto;
+  }
+  .side{
+    color:white;
+  }
+  .white{
+    color: white;
+
+  }
+  
+  /* .vap-icon {
+    padding: 0 10px;
+    background-color: #666;
+  } */
+  
+  /* .mat-elevation-z5 {
+    position: relative;
+    z-index: 2;
+  } */
+  
+  /* .mat-sidenav a:hover {
+    color: #c20e4a;
+  } */

@@ -1,0 +1,81 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "employee": [
+    {
+      "firstName": "arun",
+      "lastName": "Raj",
+      "email": "arun@gmail.com",
+      "dob": "1997-08-26T18:30:00.000Z",
+      "gender": "male",
+      "education": "graduate",
+      "company": "ASM",
+      "experience": 3,
+      "package": 5,
+      "id": 2
+    },
+    {
+      "firstName": "selva",
+      "lastName": "kumar",
+      "email": "selva@gmail.com",
+      "dob": "2023-03-29T18:30:00.000Z",
+      "gender": "male",
+      "education": "graduate",
+      "company": "ASM",
+      "experience": 2,
+      "package": 4,
+      "id": 3
+    },
+    {
+      "firstName": "soundhar",
+      "lastName": "Raj",
+      "email": "soundh@gmail.com",
+      "dob": "2023-03-29T18:30:00.000Z",
+      "gender": "male",
+      "education": "graduate",
+      "company": "ASM",
+      "experience": 3,
+      "package": 3,
+      "id": 4
+    },
+    {
+      "firstName": "raju",
+      "lastName": "kumar",
+      "email": "arun@gmail.com",
+      "dob": "2023-03-29T18:30:00.000Z",
+      "gender": "male",
+      "education": "graduate",
+      "company": "ASM",
+      "experience": 4,
+      "package": 2,
+      "id": 5
+    },
+    {
+      "firstName": "maha",
+      "lastName": "lakhshmi",
+      "email": "maha@gmail.com",
+      "dob": "2023-03-29T18:30:00.000Z",
+      "gender": "female",
+      "education": "graduate",
+      "company": "ASM",
+      "experience": 5,
+      "package": 5,
+      "id": 6
+    }
+  ]
+}

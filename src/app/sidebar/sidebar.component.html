@@ -1,0 +1,56 @@
+<!-- <h1>Sidebar working</h1> -->
+<link
+  href="https://fonts.googleapis.com/icon?family=Material+Icons"
+  rel="stylesheet"
+/>
+<mat-toolbar  class="top-menu">
+    <mat-toolbar-row >
+      <button
+        type="button "
+        aria-label="Toggle sidenav"
+        mat-icon-button
+        (click)="toggleNav(sidenav)" 
+        [disabled]="buttondisable"
+      >
+        <mat-icon arial-label="Side nav toggle icon" *ngIf="hide">menu</mat-icon>
+      </button>
+      <span class="fill-remaining-space">Menu </span>
+   
+    </mat-toolbar-row>
+    
+  </mat-toolbar>
+  
+
+  <mat-sidenav-container>
+    <mat-sidenav #sidenav mode="side" class="vertical-menu">
+      <!-- <mat-nav-list style="width: 200px">
+        <a mat-list-item routerLink="/home" routerLinkActive="Active">
+          <mat-icon class="white">home</mat-icon>&nbsp;<label class="side">Home</label>
+        </a>
+      </mat-nav-list> -->
+      <mat-nav-list style="width: 200px; ">
+        <a mat-list-item routerLink="/dashboard" routerLinkActive="Active">
+          <mat-icon class="white">dashboard</mat-icon>&nbsp;<label class="side">Dashboard</label>
+        </a>
+      </mat-nav-list>
+     
+      <!-- <mat-nav-list style="width: 200px">
+        <a mat-list-item routerLink="/detail" routerLinkActive="Active">
+          <mat-icon class="white">Detail</mat-icon>&nbsp;<label class="side">Detail</label>
+        </a>
+      </mat-nav-list> -->
+      <mat-nav-list style="width: 200px">
+        <a mat-list-item routerLink="/chart" routerLinkActive="Active">
+          <mat-icon class="white">Mychart</mat-icon>&nbsp;<label class="side">Mychart</label>
+        </a>
+      </mat-nav-list>
+      
+    </mat-sidenav>
+  
+    <mat-sidenav-content>
+      <p style="height: 85vh">
+        <router-outlet></router-outlet>
+      </p>
+    </mat-sidenav-content>
+  </mat-sidenav-container>
+  

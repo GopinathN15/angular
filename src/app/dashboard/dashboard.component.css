@@ -1,0 +1,33 @@
+.container1{
+    width: 100%;
+}
+
+.al-left{
+    float: left;
+    max-width: 15vw;
+}
+
+.al-right{
+    float: right;
+    max-width: 85vw;
+}
+.main-body{
+    padding-top: 20px;
+  margin-left: 20em;
+    max-width:  100em;  
+    tab-size: 20px;
+    
+
+    /* mat-form-field {
+    width:100%;
+    } */
+}
+.add{
+    color: blueviolet;
+}
+#addemp{
+    margin-left:100em;
+    margin-top: 1em;
+    padding-left: 20px;
+    
+}
